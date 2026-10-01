@@ -1,0 +1,427 @@
+[
+  {
+    "id": "forest_sprite",
+    "name": "숲의 정령",
+    "emoji": "🌱",
+    "element": "wood",
+    "polarity": "yin",
+    "rarity": "N",
+    "profile": {
+      "hp": 0.9,
+      "atk": 0.85,
+      "def": 0.9,
+      "spd": 1.1,
+      "qi": 1.2
+    },
+    "skills": [
+      "wood_lash",
+      "wood_sprout"
+    ],
+    "description": "작은 숲을 지키는 정령"
+  },
+  {
+    "id": "fire_goblin",
+    "name": "불꽃 도깨비",
+    "emoji": "👺",
+    "element": "fire",
+    "polarity": "yang",
+    "rarity": "N",
+    "profile": {
+      "hp": 1.0,
+      "atk": 1.15,
+      "def": 0.85,
+      "spd": 1.0,
+      "qi": 0.9
+    },
+    "skills": [
+      "fire_bolt",
+      "fire_fury"
+    ],
+    "description": "불장난을 좋아하는 도깨비"
+  },
+  {
+    "id": "stone_turtle",
+    "name": "돌거북",
+    "emoji": "🐢",
+    "element": "earth",
+    "polarity": "yin",
+    "rarity": "N",
+    "profile": {
+      "hp": 1.25,
+      "atk": 0.85,
+      "def": 1.2,
+      "spd": 0.7,
+      "qi": 0.9
+    },
+    "skills": [
+      "earth_rock",
+      "earth_guard"
+    ],
+    "description": "느리지만 단단한 거북"
+  },
+  {
+    "id": "bell_warrior",
+    "name": "쇠방울 무사",
+    "emoji": "🔔",
+    "element": "metal",
+    "polarity": "yang",
+    "rarity": "N",
+    "profile": {
+      "hp": 1.0,
+      "atk": 1.05,
+      "def": 1.1,
+      "spd": 0.95,
+      "qi": 0.85
+    },
+    "skills": [
+      "metal_slash",
+      "metal_bell"
+    ],
+    "description": "방울 소리로 적을 홀리는 무사"
+  },
+  {
+    "id": "droplet_fairy",
+    "name": "물방울 요정",
+    "emoji": "💧",
+    "element": "water",
+    "polarity": "yin",
+    "rarity": "N",
+    "profile": {
+      "hp": 0.9,
+      "atk": 0.85,
+      "def": 0.9,
+      "spd": 1.05,
+      "qi": 1.25
+    },
+    "skills": [
+      "water_jet",
+      "water_heal"
+    ],
+    "description": "치유의 물방울을 나르는 요정"
+  },
+  {
+    "id": "bamboo_archer",
+    "name": "대나무 궁수",
+    "emoji": "🎋",
+    "element": "wood",
+    "polarity": "yang",
+    "rarity": "R",
+    "profile": {
+      "hp": 0.95,
+      "atk": 1.15,
+      "def": 0.9,
+      "spd": 1.2,
+      "qi": 0.9
+    },
+    "skills": [
+      "wood_lash",
+      "wood_spore",
+      "wood_thorn"
+    ],
+    "description": "대숲에서 활을 쏘는 궁수"
+  },
+  {
+    "id": "foxfire_shaman",
+    "name": "여우불 무녀",
+    "emoji": "🏮",
+    "element": "fire",
+    "polarity": "yin",
+    "rarity": "R",
+    "profile": {
+      "hp": 0.9,
+      "atk": 1.05,
+      "def": 0.9,
+      "spd": 1.05,
+      "qi": 1.2
+    },
+    "skills": [
+      "fire_ember",
+      "fire_bolt",
+      "earth_mend"
+    ],
+    "description": "여우불을 다루는 무녀"
+  },
+  {
+    "id": "porcelain_master",
+    "name": "백자 장인",
+    "emoji": "🏺",
+    "element": "earth",
+    "polarity": "yang",
+    "rarity": "R",
+    "profile": {
+      "hp": 1.15,
+      "atk": 1.0,
+      "def": 1.15,
+      "spd": 0.85,
+      "qi": 0.95
+    },
+    "skills": [
+      "earth_rock",
+      "earth_wall",
+      "earth_quake"
+    ],
+    "description": "흙으로 방패를 빚는 장인"
+  },
+  {
+    "id": "wandering_blade",
+    "name": "떠돌이 검객",
+    "emoji": "🗡️",
+    "element": "metal",
+    "polarity": "yin",
+    "rarity": "R",
+    "profile": {
+      "hp": 0.95,
+      "atk": 1.2,
+      "def": 0.95,
+      "spd": 1.15,
+      "qi": 0.8
+    },
+    "skills": [
+      "metal_slash",
+      "metal_pierce",
+      "metal_rain"
+    ],
+    "description": "이름 없는 검객"
+  },
+  {
+    "id": "haenyeo_parang",
+    "name": "해녀 파랑",
+    "emoji": "🌊",
+    "element": "water",
+    "polarity": "yang",
+    "rarity": "R",
+    "profile": {
+      "hp": 1.05,
+      "atk": 1.0,
+      "def": 1.0,
+      "spd": 1.0,
+      "qi": 1.1
+    },
+    "skills": [
+      "water_jet",
+      "water_ice",
+      "water_heal"
+    ],
+    "description": "바다를 누비는 해녀"
+  },
+  {
+    "id": "sacred_tree",
+    "name": "신목 수호자",
+    "emoji": "🌳",
+    "element": "wood",
+    "polarity": "yin",
+    "rarity": "SR",
+    "profile": {
+      "hp": 1.2,
+      "atk": 0.9,
+      "def": 1.1,
+      "spd": 0.9,
+      "qi": 1.3
+    },
+    "skills": [
+      "wood_sprout",
+      "wood_bloom",
+      "wood_breeze",
+      "wood_thorn"
+    ],
+    "description": "천년 신목의 수호령"
+  },
+  {
+    "id": "gumiho_ara",
+    "name": "구미호 아라",
+    "emoji": "🦊",
+    "element": "fire",
+    "polarity": "yin",
+    "rarity": "SR",
+    "profile": {
+      "hp": 0.95,
+      "atk": 1.25,
+      "def": 0.9,
+      "spd": 1.2,
+      "qi": 1.0
+    },
+    "skills": [
+      "fire_ember",
+      "fire_wave",
+      "fire_fury",
+      "fire_sun"
+    ],
+    "description": "아홉 꼬리의 여우"
+  },
+  {
+    "id": "loess_giant",
+    "name": "황토 거인",
+    "emoji": "🗿",
+    "element": "earth",
+    "polarity": "yang",
+    "rarity": "SR",
+    "profile": {
+      "hp": 1.4,
+      "atk": 1.1,
+      "def": 1.25,
+      "spd": 0.7,
+      "qi": 0.85
+    },
+    "skills": [
+      "earth_rock",
+      "earth_quake",
+      "earth_wall",
+      "earth_titan"
+    ],
+    "description": "황토로 빚어진 거인"
+  },
+  {
+    "id": "sword_saint",
+    "name": "검성 월하",
+    "emoji": "⚔️",
+    "element": "metal",
+    "polarity": "yin",
+    "rarity": "SR",
+    "profile": {
+      "hp": 1.0,
+      "atk": 1.3,
+      "def": 1.0,
+      "spd": 1.2,
+      "qi": 0.85
+    },
+    "skills": [
+      "metal_slash",
+      "metal_pierce",
+      "metal_rain",
+      "metal_sharpen"
+    ],
+    "description": "달빛 아래 검을 든 검성"
+  },
+  {
+    "id": "dragon_princess",
+    "name": "용궁 공주",
+    "emoji": "🧜",
+    "element": "water",
+    "polarity": "yin",
+    "rarity": "SR",
+    "profile": {
+      "hp": 1.05,
+      "atk": 0.95,
+      "def": 1.0,
+      "spd": 1.0,
+      "qi": 1.35
+    },
+    "skills": [
+      "water_heal",
+      "water_rain",
+      "water_mist",
+      "water_tide"
+    ],
+    "description": "용궁의 막내 공주"
+  },
+  {
+    "id": "azure_dragon",
+    "name": "청룡",
+    "emoji": "🐲",
+    "element": "wood",
+    "polarity": "yang",
+    "rarity": "SSR",
+    "profile": {
+      "hp": 1.15,
+      "atk": 1.25,
+      "def": 1.05,
+      "spd": 1.3,
+      "qi": 1.1
+    },
+    "skills": [
+      "wood_lash",
+      "wood_thorn",
+      "wood_breeze",
+      "wood_dragon"
+    ],
+    "description": "동방을 수호하는 사신(四神)"
+  },
+  {
+    "id": "vermilion_bird",
+    "name": "주작",
+    "emoji": "🦅",
+    "element": "fire",
+    "polarity": "yang",
+    "rarity": "SSR",
+    "profile": {
+      "hp": 1.0,
+      "atk": 1.4,
+      "def": 0.95,
+      "spd": 1.25,
+      "qi": 1.1
+    },
+    "skills": [
+      "fire_bolt",
+      "fire_wave",
+      "fire_sun",
+      "fire_phoenix"
+    ],
+    "description": "남방을 수호하는 사신(四神)"
+  },
+  {
+    "id": "yellow_dragon",
+    "name": "황룡",
+    "emoji": "🐉",
+    "element": "earth",
+    "polarity": "yang",
+    "rarity": "SSR",
+    "profile": {
+      "hp": 1.4,
+      "atk": 1.15,
+      "def": 1.3,
+      "spd": 0.95,
+      "qi": 1.1
+    },
+    "skills": [
+      "earth_quake",
+      "earth_wall",
+      "earth_mend",
+      "earth_titan"
+    ],
+    "description": "중앙을 다스리는 오방신"
+  },
+  {
+    "id": "white_tiger",
+    "name": "백호",
+    "emoji": "🐅",
+    "element": "metal",
+    "polarity": "yang",
+    "rarity": "SSR",
+    "profile": {
+      "hp": 1.1,
+      "atk": 1.4,
+      "def": 1.15,
+      "spd": 1.25,
+      "qi": 0.9
+    },
+    "skills": [
+      "metal_slash",
+      "metal_rain",
+      "metal_sharpen",
+      "metal_tiger"
+    ],
+    "description": "서방을 수호하는 사신(四神)"
+  },
+  {
+    "id": "black_tortoise",
+    "name": "현무",
+    "emoji": "🐍",
+    "element": "water",
+    "polarity": "yin",
+    "rarity": "SSR",
+    "profile": {
+      "hp": 1.35,
+      "atk": 1.05,
+      "def": 1.35,
+      "spd": 0.85,
+      "qi": 1.25
+    },
+    "skills": [
+      "water_ice",
+      "water_tide",
+      "water_rain",
+      "water_abyss"
+    ],
+    "description": "북방을 수호하는 사신(四神)"
+  }
+]

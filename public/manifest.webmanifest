@@ -1,0 +1,10 @@
+{
+  "name": "오행전기",
+  "short_name": "오행전기",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#14111f",
+  "theme_color": "#14111f",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

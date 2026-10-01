@@ -1,0 +1,17 @@
+{
+  "singleCost": 160,
+  "multiCost": 1600,
+  "rates": {
+    "N": 60,
+    "R": 30,
+    "SR": 8.5,
+    "SSR": 1.5
+  },
+  "pity": 80,
+  "multiGuarantee": "R",
+  "pickup": {
+    "id": "azure_dragon",
+    "share": 0.5
+  },
+  "startingSpirit": 1600
+}

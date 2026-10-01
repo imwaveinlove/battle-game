@@ -1,0 +1,500 @@
+[
+  {
+    "id": "wood_lash",
+    "name": "덩굴채찍",
+    "element": "wood",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 60,
+    "cost": 10,
+    "heroLevel": 1,
+    "description": "덩굴로 적 하나를 후려친다"
+  },
+  {
+    "id": "wood_spore",
+    "name": "독포자",
+    "element": "wood",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 30,
+    "cost": 14,
+    "effect": {
+      "status": "poison",
+      "chance": 0.85
+    },
+    "heroLevel": 4,
+    "description": "독 포자를 뿌려 높은 확률로 중독"
+  },
+  {
+    "id": "wood_sprout",
+    "name": "생명의 새싹",
+    "element": "wood",
+    "kind": "heal",
+    "target": "ally",
+    "power": 60,
+    "cost": 20,
+    "heroLevel": 3,
+    "description": "아군 하나의 체력을 회복"
+  },
+  {
+    "id": "wood_thorn",
+    "name": "가시폭풍",
+    "element": "wood",
+    "kind": "attack",
+    "target": "allEnemies",
+    "power": 42,
+    "cost": 26,
+    "effect": {
+      "status": "poison",
+      "chance": 0.3
+    },
+    "heroLevel": 8,
+    "description": "적 전체에 가시를 날린다. 30% 중독"
+  },
+  {
+    "id": "wood_breeze",
+    "name": "봄바람",
+    "element": "wood",
+    "kind": "support",
+    "target": "allAllies",
+    "power": 0,
+    "cost": 20,
+    "effect": {
+      "buff": {
+        "stat": "spd",
+        "mult": 1.3,
+        "turns": 3
+      }
+    },
+    "heroLevel": 12,
+    "description": "아군 전체 속도 ▲ (3턴)"
+  },
+  {
+    "id": "wood_bloom",
+    "name": "만개",
+    "element": "wood",
+    "kind": "heal",
+    "target": "allAllies",
+    "power": 36,
+    "cost": 36,
+    "heroLevel": 18,
+    "description": "아군 전체 회복"
+  },
+  {
+    "id": "wood_dragon",
+    "name": "청룡창",
+    "element": "wood",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 100,
+    "cost": 32,
+    "heroLevel": 24,
+    "description": "푸른 용의 기운을 담은 일격"
+  },
+  {
+    "id": "fire_bolt",
+    "name": "화염구",
+    "element": "fire",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 60,
+    "cost": 10,
+    "effect": {
+      "status": "burn",
+      "chance": 0.15
+    },
+    "heroLevel": 1,
+    "description": "불덩이를 던진다. 15% 화상"
+  },
+  {
+    "id": "fire_ember",
+    "name": "불씨",
+    "element": "fire",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 35,
+    "cost": 12,
+    "effect": {
+      "status": "burn",
+      "chance": 0.8
+    },
+    "heroLevel": 4,
+    "description": "작은 불씨로 높은 확률 화상"
+  },
+  {
+    "id": "fire_fury",
+    "name": "투지",
+    "element": "fire",
+    "kind": "support",
+    "target": "self",
+    "power": 0,
+    "cost": 14,
+    "effect": {
+      "buff": {
+        "stat": "atk",
+        "mult": 1.5,
+        "turns": 3
+      }
+    },
+    "heroLevel": 3,
+    "description": "자신의 공격 ▲▲ (3턴)"
+  },
+  {
+    "id": "fire_wave",
+    "name": "열파",
+    "element": "fire",
+    "kind": "attack",
+    "target": "allEnemies",
+    "power": 45,
+    "cost": 26,
+    "heroLevel": 8,
+    "description": "적 전체를 뜨거운 바람으로 덮친다"
+  },
+  {
+    "id": "fire_sun",
+    "name": "태양창",
+    "element": "fire",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 100,
+    "cost": 32,
+    "heroLevel": 18,
+    "description": "태양의 창으로 꿰뚫는다"
+  },
+  {
+    "id": "fire_phoenix",
+    "name": "주작강림",
+    "element": "fire",
+    "kind": "attack",
+    "target": "allEnemies",
+    "power": 72,
+    "cost": 50,
+    "effect": {
+      "status": "burn",
+      "chance": 0.3
+    },
+    "heroLevel": 28,
+    "description": "주작의 불길이 전장을 휩쓴다. 30% 화상"
+  },
+  {
+    "id": "earth_rock",
+    "name": "암석투척",
+    "element": "earth",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 60,
+    "cost": 10,
+    "heroLevel": 1,
+    "description": "바위를 던진다"
+  },
+  {
+    "id": "earth_wall",
+    "name": "대지의 벽",
+    "element": "earth",
+    "kind": "support",
+    "target": "allAllies",
+    "power": 0,
+    "cost": 22,
+    "effect": {
+      "buff": {
+        "stat": "def",
+        "mult": 1.4,
+        "turns": 3
+      }
+    },
+    "heroLevel": 3,
+    "description": "아군 전체 방어 ▲ (3턴)"
+  },
+  {
+    "id": "earth_mend",
+    "name": "대지의 은혜",
+    "element": "earth",
+    "kind": "heal",
+    "target": "ally",
+    "power": 55,
+    "cost": 18,
+    "heroLevel": 5,
+    "description": "대지의 기운으로 회복"
+  },
+  {
+    "id": "earth_guard",
+    "name": "철벽자세",
+    "element": "earth",
+    "kind": "support",
+    "target": "self",
+    "power": 0,
+    "cost": 8,
+    "effect": {
+      "buff": {
+        "stat": "def",
+        "mult": 1.8,
+        "turns": 2
+      }
+    },
+    "heroLevel": 6,
+    "description": "자신의 방어 ▲▲ (2턴)"
+  },
+  {
+    "id": "earth_quake",
+    "name": "지진",
+    "element": "earth",
+    "kind": "attack",
+    "target": "allEnemies",
+    "power": 50,
+    "cost": 30,
+    "heroLevel": 10,
+    "description": "땅을 뒤흔들어 적 전체 공격"
+  },
+  {
+    "id": "earth_titan",
+    "name": "황룡진",
+    "element": "earth",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 105,
+    "cost": 36,
+    "effect": {
+      "status": "stun",
+      "chance": 0.2
+    },
+    "heroLevel": 24,
+    "description": "황룡의 무게로 짓누른다. 20% 기절"
+  },
+  {
+    "id": "metal_slash",
+    "name": "금강참",
+    "element": "metal",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 65,
+    "cost": 10,
+    "heroLevel": 1,
+    "description": "단단한 칼날로 벤다"
+  },
+  {
+    "id": "metal_pierce",
+    "name": "관통",
+    "element": "metal",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 70,
+    "cost": 20,
+    "effect": {
+      "buff": {
+        "stat": "def",
+        "mult": 0.7,
+        "turns": 2
+      }
+    },
+    "heroLevel": 4,
+    "description": "방어를 꿰뚫는다. 대상 방어 ▼ (2턴)"
+  },
+  {
+    "id": "metal_rain",
+    "name": "검우",
+    "element": "metal",
+    "kind": "attack",
+    "target": "allEnemies",
+    "power": 44,
+    "cost": 28,
+    "heroLevel": 8,
+    "description": "칼날의 비가 쏟아진다"
+  },
+  {
+    "id": "metal_bell",
+    "name": "금종",
+    "element": "metal",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 40,
+    "cost": 18,
+    "effect": {
+      "status": "stun",
+      "chance": 0.4
+    },
+    "heroLevel": 12,
+    "description": "종소리로 40% 기절"
+  },
+  {
+    "id": "metal_sharpen",
+    "name": "연마",
+    "element": "metal",
+    "kind": "support",
+    "target": "allAllies",
+    "power": 0,
+    "cost": 24,
+    "effect": {
+      "buff": {
+        "stat": "atk",
+        "mult": 1.25,
+        "turns": 3
+      }
+    },
+    "heroLevel": 15,
+    "description": "아군 전체 공격 ▲ (3턴)"
+  },
+  {
+    "id": "metal_tiger",
+    "name": "백호참",
+    "element": "metal",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 110,
+    "cost": 38,
+    "heroLevel": 26,
+    "description": "백호의 발톱"
+  },
+  {
+    "id": "water_jet",
+    "name": "물대포",
+    "element": "water",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 60,
+    "cost": 10,
+    "heroLevel": 1,
+    "description": "물줄기를 쏜다"
+  },
+  {
+    "id": "water_heal",
+    "name": "정화의 물",
+    "element": "water",
+    "kind": "heal",
+    "target": "ally",
+    "power": 65,
+    "cost": 20,
+    "heroLevel": 3,
+    "description": "맑은 물로 크게 회복"
+  },
+  {
+    "id": "water_ice",
+    "name": "빙결창",
+    "element": "water",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 55,
+    "cost": 16,
+    "effect": {
+      "status": "freeze",
+      "chance": 0.3
+    },
+    "heroLevel": 5,
+    "description": "얼음창. 30% 빙결"
+  },
+  {
+    "id": "water_mist",
+    "name": "안개",
+    "element": "water",
+    "kind": "support",
+    "target": "allEnemies",
+    "power": 0,
+    "cost": 18,
+    "effect": {
+      "buff": {
+        "stat": "atk",
+        "mult": 0.8,
+        "turns": 3
+      }
+    },
+    "heroLevel": 8,
+    "description": "적 전체 공격 ▼ (3턴)"
+  },
+  {
+    "id": "water_tide",
+    "name": "해일",
+    "element": "water",
+    "kind": "attack",
+    "target": "allEnemies",
+    "power": 50,
+    "cost": 30,
+    "heroLevel": 12,
+    "description": "거대한 파도"
+  },
+  {
+    "id": "water_rain",
+    "name": "감로",
+    "element": "water",
+    "kind": "heal",
+    "target": "allAllies",
+    "power": 40,
+    "cost": 34,
+    "heroLevel": 16,
+    "description": "단비로 아군 전체 회복"
+  },
+  {
+    "id": "water_abyss",
+    "name": "현무진",
+    "element": "water",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 100,
+    "cost": 34,
+    "effect": {
+      "status": "freeze",
+      "chance": 0.2
+    },
+    "heroLevel": 24,
+    "description": "심연의 일격. 20% 빙결"
+  },
+  {
+    "id": "mob_bite",
+    "name": "물어뜯기",
+    "element": "earth",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 50,
+    "cost": 6,
+    "description": "적 전용 기본기"
+  },
+  {
+    "id": "mob_curse",
+    "name": "저주",
+    "element": "water",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 30,
+    "cost": 14,
+    "effect": {
+      "status": "poison",
+      "chance": 0.5
+    },
+    "description": "원한이 서린 저주. 50% 중독"
+  },
+  {
+    "id": "mob_roar",
+    "name": "포효",
+    "element": "fire",
+    "kind": "support",
+    "target": "allAllies",
+    "power": 0,
+    "cost": 20,
+    "effect": {
+      "buff": {
+        "stat": "atk",
+        "mult": 1.2,
+        "turns": 3
+      }
+    },
+    "description": "무리의 공격 ▲"
+  },
+  {
+    "id": "mob_smash",
+    "name": "내려찍기",
+    "element": "earth",
+    "kind": "attack",
+    "target": "enemy",
+    "power": 85,
+    "cost": 24,
+    "description": "강하게 내려찍는다"
+  },
+  {
+    "id": "mob_swarm",
+    "name": "떼공격",
+    "element": "wood",
+    "kind": "attack",
+    "target": "allEnemies",
+    "power": 35,
+    "cost": 22,
+    "description": "무리지어 덤벼든다"
+  }
+]
